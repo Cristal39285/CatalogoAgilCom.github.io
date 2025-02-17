@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZTE BLADE - Tienda de Celulares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #0A1828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .product-container {
+            display: flex; /* Usamos Flexbox para alinear imagen y texto */
+            align-items: center; /* Centra verticalmente los elementos */
+            width: 60%;
+            margin: auto;
+            padding: 50px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Espacio entre productos */
+        }
+
+        .product-img {
+            width: 250px; /* Tamaño ajustado en px */
+            height: 275px; /* Tamaño ajustado en px */
+            border-radius: 10px;
+            margin-right: 20px; /* Espacio entre la imagen y el texto */
+        }
+
+        .product-name {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .product-details {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .back-button {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color:  #0A1828;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        .back-button:hover {
+            background-color:  #0A1828;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>ZTE BLADE</h1>
+    </div>
+
+    <div class="product-container">
+        <img class="product-img" src="zteblade.jpg" >
+        <div>
+            <div class="product-name">ZTE BLADE V50 DESIGN</div>
+            <div class="product-details">
+                <h3>Características:</h3>
+                <ul>
+                    <li>Procesador Unisoc</li>
+                    <li>56GB de almacenamiento 16 RAM</li>
+                    <li>Batería de 5000 mAh carga rápida</li>
+                    <li>Cámara de 50MP</li>
+                    <li>Lector de huellas</li>
+                    <li>Corre Android 13</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <a href="index.html" class="back-button">Volver a las marcas</a>
+    </div>
+
+</body>
+</html>
+

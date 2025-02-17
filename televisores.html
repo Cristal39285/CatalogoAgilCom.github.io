@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televisores - Tienda de Electrónica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #0A1828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .tv-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .tv-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .tv-img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .tv-details {
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        .back-button {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            padding: 10px 20px;
+            background-color: #0A1828;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            width: 200px;
+        }
+
+        .back-button:hover {
+            background-color: #1B2C47;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Televisores</h1>
+    </div>
+
+    <div class="tv-container">
+        <div class="tv-card">
+            <img class="tv-img" src="32pulgadas.jpg" alt="Televisor 50 pulgadas">
+            <div class="tv-details">
+                <strong>Televisor de 32"</strong>
+            </div>
+        </div>
+
+        <div class="tv-card">
+            <img class="tv-img" src="43pulgadas.jpg" alt="Televisor 55 pulgadas">
+            <div class="tv-details">
+                <strong>Televisor de 43"</strong>
+            </div>
+        </div>
+
+        <div class="tv-card">
+            <img class="tv-img" src="50pulgadas.jpg" alt="Televisor 55 pulgadas">
+            <div class="tv-details">
+                <strong>Televisor de 50"</strong>
+            </div>
+        </div>
+
+        <div class="tv-card">
+            <img class="tv-img" src="televisor-samsung-un55au7000pcze-55-pulg-smart-tv-led-un55au7000pcze-idc-mayorista-4.png.webp" alt="Televisor 55 pulgadas">
+            <div class="tv-details">
+                <strong>Televisor de 55"</strong>
+            </div>
+        </div>
+
+        <div class="tv-card">
+            <img class="tv-img" src="65pulgadas.jpg" alt="Televisor 55 pulgadas">
+            <div class="tv-details">
+                <strong>Televisor de 65"</strong>
+            </div>
+        </div>
+
+        <div class="tv-card">
+            <img class="tv-img" src="75pulgadas.jpg" alt="Televisor 55 pulgadas">
+            <div class="tv-details">
+                <strong>Televisor de 75"</strong>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="index.html" class="back-button">Volver a las marcas</a>
+
+</body>
+</html>

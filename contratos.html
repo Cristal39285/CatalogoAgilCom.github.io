@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIPS TUENTI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color:  #0A1828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .image-gallery img {
+            width: 500px; 
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .tuenti-button {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color:  #0A1828;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            width: 200px;
+            margin: 20px auto;
+        }
+
+        .tuenti-button:hover {
+            background-color:  #333;
+        }
+
+        
+        .info-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10; 
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 0 auto; 
+            width: 80%;
+        }
+
+        .info-section img {
+            width: 50%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px; 
+        }
+
+        .info-section .info-text {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>TRABAJA CON NOSOTROS</h1>
+    </div>
+
+    <div class="info-section">
+        <img src="agilcomtres.png" alt="Imagen de información"> 
+    </div>
+
+    <div class="tuenti-button" onclick="window.location.href='index.html';">
+        Regresar a las Marcas
+    </div>
+
+</body>
+</html>
